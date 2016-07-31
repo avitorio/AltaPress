@@ -2,9 +2,12 @@
 
     <!-- ******************* The Hero Widget Area ******************* -->
     
-    <div class="wrapper" id="wrapper-static-hero">
-
-        <?php dynamic_sidebar( 'statichero' ); ?>
+    <div class="hero wrapper" id="wrapper-static-hero">
+    	<div class="container">
+    		<div class="row-flex text-center">     
+          		<?php dynamic_sidebar( 'statichero' ); ?>
+          	</div>
+        </div>
 
     </div><!-- #wrapper-static-hero -->
 

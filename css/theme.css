@@ -4694,7 +4694,7 @@ a.skip-link {
 
 .fa {
   display: inline-block;
-  font: normal normal normal 14px / 1 FontAwesome;
+  font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -7053,3 +7053,14 @@ a.skip-link {
       border-radius: 30px; }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background: #869791; }
+
+#wrapper-static-hero {
+  height: calc(60vh - 54px);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #wrapper-static-hero .row-flex {
+    max-width: 100%;
+    text-align: center; }
+    #wrapper-static-hero .row-flex h1 {
+      font-size: 8rem; }

@@ -1,1 +1,16 @@
-// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+// Hero
+#wrapper-static-hero {
+	height: calc(60vh - 54px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.row-flex {
+		max-width: 100%;
+	    text-align: center;
+
+	    h1 {
+	    	font-size: 8rem;
+	    }
+	}
+}

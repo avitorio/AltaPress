@@ -30,10 +30,10 @@ function understrap_widgets_init() {
         'name'          => __( 'Hero Static', 'understrap' ),
         'id'            => 'statichero',
         'description'   => 'Static Hero widget. no slider functionallity',
-        'before_widget' => '',
-        'after_widget'  => '',
-        'before_title'  => '',
-        'after_title'   => '',
+        'before_widget' => '<h2>',
+        'after_widget'  => '</h2>',
+        'before_title'  => '<h1>',
+        'after_title'   => '</h1>',
     ) );
 
         register_sidebar( array(
