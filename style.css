@@ -1,0 +1,24 @@
+/*
+/*
+Theme Name: AltaPress
+Author: Andre Vitorio
+Description: A WordPress theme for landing pages.
+Version: 0.0.1
+Tags: Landing Page, Marketing
+Resource Licenses:
+UnderStrap: http://understrap.com by Holger Koenemann;
+Underscores: http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Font Awesome: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT, documentation under CC BY 3.0.)
+Owl Carousel 2: http://www.owlcarousel.owlgraphic.com/ | https://github.com/smashingboxes/OwlCarousel2/blob/develop/LICENSE (Code licensed under MIT)
+and of course
+jQuery: https://jquery.org | (Code licensed under MIT)
+WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
+*/
+
+/*
+This file is just used to identify the theme in WordPress. The compiled CSS output can be found in /css/theme.css
+The SASS sources for it can be found in this folder: /sass/
+
+...and no go out and play!
+*/
