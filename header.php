@@ -6,6 +6,21 @@
  *
  * @package understrap
  */
+
+/*
+* Redirect user to members area if they are logged-in, if not 
+* send them to the home-page if they try to access the members-area
+*/
+if( SwpmMemberUtils::is_member_logged_in() && is_front_page()) {
+        wp_redirect('members-area');
+        exit;
+    } 
+
+else if( !SwpmMemberUtils::is_member_logged_in() && is_page( array('members-area')) ) {
+        wp_redirect( site_url() );
+        exit;
+}
+
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
